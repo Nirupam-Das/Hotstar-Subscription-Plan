@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(7, 7, 39);
+    color: white;
+    font-family: 'Roboto';
+}
+.logo{
+    width: 70px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+header{
+    font-weight: 400;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(7, 7, 39);
+}
+header div{
+    display: flex;
+    justify-content: space-between;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+header ul li{
+    background-color: rgba(117, 117, 117,0.5);
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.eng{
+    margin-right: 40px;
+    background-color: blue;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+}
+#first{
+    margin-left: 25px;
+    font-size: large;
+}
+#second{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.content{
+    text-align: left;
+    margin-top: 35px;
+    margin-right: 50px;
+}
+.content p{
+    margin-bottom: 27px;
+}
+#third{
+    display: flex;
+    gap: 10px;
+    text-align: left;
+    justify-content: center;
+    font-size: 20px;
+}
+.box{
+    padding: 10px 90px 10px 10px;
+    border: 2px solid white;
+    border-radius: 9px;
+    margin-top: 20px;
+    position: relative;
+}
+.box span{
+    font-size: small;
+}
+.box p{
+    margin: 0;
+}
+.plan{
+    color: gold;
+}
+.tick{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+#fouth{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+#fouth p{
+    margin: 0;
+    padding: 10px 170px;
+    background-color: blue;
+    margin-top: 20px;
+    border-radius: 7px;
+    margin-bottom: 30px;
+}
+#fifth{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding-top: 80px;
+    text-align: left;
+    color: rgb(140, 151, 176);
+}
+#fifth h4{
+    color: white;
+}
+#fifth span{
+    margin-left: 20px;
+}
+#fifth img{
+    width: 20px;
+    height: 20px;
+}
+.bird{
+    float: right;
+    margin-right: 30px;
+}
+footer{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 90px;
+    color: rgb(140, 151, 176);
+}
+footer p span{
+    margin-left: 12px;
+}
+.play{
+    width: 120px;
+    height: 52px;
+    position: relative;
+}
+.apple{
+    width: 120px;
+    height: 36px;
+    position: relative;
+    bottom: 7px;
+}
